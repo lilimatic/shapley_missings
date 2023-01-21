@@ -47,3 +47,12 @@ class Missingness_mechanism:
             #print('Complete case')
             return np.mean(self.cc(a,b)(mechanism)['Y'])
 
+
+        
+        
+        #Sanity check 1 
+        #if (self.df['Y']-(mu + m1 + m2 +m12))<1e-3:
+         #   print("Sufficient precision")
+        #Variance contribution 
+        
+        
